@@ -1,6 +1,5 @@
 # LongT5Rank-Text-Summarizer
 A text summarizer using hybrid approach. 
 
-1. Creata a virtual environment.
-2. Activate the virtual environment.
-3. Run the app by using Streamlit. 
+Text summarisation is a strategy for creating a summary by reducing the length of the text while retaining the important information. It can help people, especially students, to deal with the problem of information overload when conducting research or working on assignments. However, existing text summarisation methods have some limitations, such as losing important details, generating irrelevant or redundant sentences, or producing incoherent summaries. This study proposes a hybrid approach that combines TextRank, an extractive summarisation algorithm, with LongT5, an abstractive summarisation algorithm, to automate the summarisation process. TextRank uses GloVe, a pre-trained word embedding model, and PageRank, a graph-based ranking algorithm, to select the most representative sentences from the original text. LongT5 is an encoder-decoder transformer model that rewrites the extracted sentences into a shorter and more coherent summary. It handles input sequences of up to 16,384 tokens, making it suitable for long-range sequence-to-sequence tasks.  The proposed method has achieved a minimum 60% compression rate, a minimum 0.6 semantic textual similarity score and a higher F-Measure than using TextRank alone. It also achieved a high comment based on human feeedback. The proposed system leverages the strengths of both extractive and abstractive methods, making it generate a more accurate and coherence summary. However, it may introduce some noise or redundancy in the generated text, especially if the input text is noisy or incomplete.
+![Uploading image.png…]()
